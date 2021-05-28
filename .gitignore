@@ -54,3 +54,6 @@ dkms.conf
 #Program folders
 .vs
 .vscode
+
+bin
+obj
