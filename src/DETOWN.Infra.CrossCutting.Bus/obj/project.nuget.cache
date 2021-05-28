@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/vOzacwk0Pka8motRRZeJbdHnqbDEbFI+tf5W6odpClNfbo+WK9TmWsGcVV/L5vLHOzwOaxzM+9YL9+XAKV3Ew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Documents\\Pessoal\\DETOWN\\DETOWN-API\\DETOWN\\DETOWN.Infra.CrossCutting.Bus\\DETOWN.Infra.CrossCutting.Bus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\8.5.1\\fluentvalidation.8.5.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.5.1\\fluentvalidation.aspnetcore.8.5.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.5.1\\fluentvalidation.dependencyinjectionextensions.8.5.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

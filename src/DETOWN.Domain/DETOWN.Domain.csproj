@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DETOWN.Domain.Core\DETOWN.Domain.Core.csproj" />
+		<ProjectReference Include="..\DETOWN.Infra.CrossCutting.Bus\DETOWN.Infra.CrossCutting.Bus.csproj" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.1.0" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="6.0.38" />
+  </ItemGroup>
+
+</Project>

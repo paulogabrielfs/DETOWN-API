@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="3.0.0" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI" Version="3.0.11" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="3.1.2" />
+		<PackageReference Include="Microsoft.Extensions.Http.Polly" Version="3.1.5" />
+		<PackageReference Include="Refit.HttpClientFactory" Version="6.0.38" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DETOWN.Application\DETOWN.Application.csproj" />
+		<ProjectReference Include="..\DETOWN.Infra.CrossCutting.Bus\DETOWN.Infra.CrossCutting.Bus.csproj" />
+		<ProjectReference Include="..\DETOWN.Infra.CrossCutting.Identity\DETOWN.Infra.CrossCutting.Identity.csproj" />
+		<ProjectReference Include="..\DETOWN.Infra.CrossCutting.IoC\DETOWN.Infra.CrossCutting.IoC.csproj" />
+		<ProjectReference Include="..\DETOWN.Infra.Data\DETOWN.Infra.Data.csproj" />
+	</ItemGroup>
+
+</Project>
